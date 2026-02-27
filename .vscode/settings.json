@@ -1,3 +1,20 @@
 {
-    "python.analysis.autoImportCompletions": false
+    "python.analysis.autoImportCompletions": false,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 6715,
+            "driver": "MySQL",
+            "name": "Local MySQL 8.0",
+            "username": "root",
+            "password": "Anubhav@216715",
+            "database": "Anubhav"
+        }
+    ]
 }
